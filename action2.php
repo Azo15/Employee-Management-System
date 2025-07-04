@@ -50,7 +50,7 @@ if ($conn->query($employees) === TRUE) {
 echo "<br>";
 echo "<br>";
 
-//step 2
+//step 3
 /*
 $departments = "CREATE TABLE departments(
 id INT(11) AUTO_INCREMENT PRIMARY KEY,
@@ -67,7 +67,7 @@ if ($conn->query($departments) === TRUE) {
 echo "<br>";
 echo "<br>";
 
-//step 3
+//step 4
 /*
 $salaries = "CREATE TABLE salaries(
 id INT(11) AUTO_INCREMENT PRIMARY KEY,
